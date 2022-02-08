@@ -9,5 +9,9 @@
     "@type" : "sc:AnnotationList",
     "@id" : "https://dimaterialist.github.io/test2/manifests/0004cca271a070fc0bc755a3d7bf85ac.json",
     "label" : null
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://dimaterialist.github.io/test2/manifests/20684.json",
+    "label" : "Paris Street; Rainy Day"
   } ]
 }
