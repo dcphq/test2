@@ -1,0 +1,70 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://dimaterialist.github.io/test2/manifests/20684.json",
+  "@type" : "sc:Manifest",
+  "label" : "Paris Street; Rainy Day",
+  "description" : [ {
+    "value" : "This complex intersection, just minutes away from the Saint-Lazare train station, represents in microcosm the changing urban milieu of late nineteenth-century Paris. Gustave Caillebotte grew up near this district when it was a relatively unsettled hill with narrow, crooked streets. As part of a new city plan designed by Baron Georges-Eugène Haussmann, these streets were relaid and their buildings razed during the artist’s lifetime. In this monumental urban view, which measures almost seven by ten feet and is considered the artist’s masterpiece, Caillebotte strikingly captured a vast, stark modernity, complete with life-size figures strolling in the foreground and wearing the latest fashions. The painting’s highly crafted surface, rigorous perspective, and grand scale pleased Parisian audiences accustomed to the academic aesthetic of the official Salon. On the other hand, its asymmetrical composition, unusually cropped forms, rain-washed mood, and candidly contemporary subject stimulated a more radical sensibility. For these reasons, the painting dominated the celebrated Impressionist exhibition of 1877, largely organized by the artist himself. In many ways, Caillebotte’s frozen poetry of the Parisian bourgeoisie prefigures Georges Seurat’s luminous Sunday on La Grande Jatte—1884, painted less than a decade later.\n",
+    "language" : "en"
+  } ],
+  "metadata" : [ {
+    "label" : "Artist / Maker",
+    "value" : "Gustave Caillebotte \n(French, 1848-1894)"
+  }, {
+    "label" : "Medium",
+    "value" : "Oil on canvas"
+  }, {
+    "label" : "Dimensions",
+    "value" : "212.2 × 276.2 cm (83 1/2 × 108 3/4 in.)"
+  }, {
+    "label" : "Object Number",
+    "value" : "1964.336"
+  }, {
+    "label" : "Collection",
+    "value" : "<a href='http://www.artic.edu/collection' target='_blank'>Art Institute of Chicago</a>"
+  } ],
+  "attribution" : "Digital image courtesy of the Art Institute of Chicago.",
+  "logo" : "https://raw.githubusercontent.com/Art-Institute-of-Chicago/template/master/aic-logo.gif",
+  "within" : "http://www.artic.edu/collection",
+  "rendering" : {
+    "@id" : "http://www.artic.edu/artworks/20684",
+    "format" : "text/html",
+    "label" : "Full record"
+  },
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "@id" : "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
+      "label" : "Paris Street; Rainy Day, 1877. Gustave Caillebotte , (French, 1848-1894)",
+      "width" : 843,
+      "height" : 655,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
+          "width" : 843,
+          "height" : 655,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        }
+      } ],
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/8333296/0004cca271a070fc0bc755a3d7bf85ac.json",
+        "label" : "Annotations for canvas Paris Street; Rainy Day, 1877. Gustave Caillebotte , (French, 1848-1894)"
+      } ]
+    } ]
+  } ],
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/8333296/20684/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
