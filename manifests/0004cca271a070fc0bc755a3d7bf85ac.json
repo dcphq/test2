@@ -1,0 +1,80 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "This is an example of an annotation",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>This is an example of an annotation</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8333296",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-02-08T03:21:05",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1644290464889",
+    "dcterms:modified" : "2022-02-08T03:21:05",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://api.artic.edu/api/v1/artworks/20684/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=431,250,87,69"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M431.19826,249.98386h43.42761v0h43.42761v34.33598v34.33598h-43.42761h-43.42761v-34.33598z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_143e11f4-1314-4921-96f0-e9452d32b5c7\" fill-opacity=\"0\" fill=\"#00befe\" fill-rule=\"nonzero\" stroke=\"#00befe\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "lights",
+      "@type" : "oa:Tag",
+      "chars" : "lights"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "paris",
+      "@type" : "oa:Tag",
+      "chars" : "paris"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Lights",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Lights</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8333296",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-02-08T03:21:37",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1644290497269",
+    "dcterms:modified" : "2022-02-08T03:21:37",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://api.artic.edu/api/v1/artworks/20684/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=382,19,111,103"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M398.00784,33.77234c10.25086,-8.63991 24.71137,-15.07376 39.24195,-15.06607v0v0c14.53058,0.00769 27.18915,6.02645 39.24195,15.06607c12.0528,9.03962 16.73757,22.81426 16.25455,36.37271c-0.48302,13.55845 -6.13382,26.90071 -16.25455,36.37271c-10.12073,9.472 -24.71137,15.07376 -39.24195,15.06607c-14.53058,-0.00769 -29.0011,-5.62481 -39.24195,-15.06607c-10.24085,-9.44126 -16.25205,-22.70665 -16.25455,-36.37271c-0.0025,-13.66606 6.00368,-27.7328 16.25455,-36.37271z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_0a1ec80d-abef-4933-a9cc-55ad561ea8a0\" fill-opacity=\"0\" fill=\"#00befe\" fill-rule=\"nonzero\" stroke=\"#00befe\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27"
+    } ]
+  } ],
+  "@id" : "https://dimaterialist.github.io/test2/manifests/0004cca271a070fc0bc755a3d7bf85ac.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
