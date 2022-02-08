@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://dimaterialist.github.io/test2/manifests/20684.json",
     "label" : "Paris Street; Rainy Day"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://dimaterialist.github.io/test2/manifests/paris.json",
+    "label" : "Paris Street; Rainy Day"
   } ]
 }
