@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://dimaterialist.github.io/test2/annotations/0004cca271a070fc0bc755a3d7bf85ac.json" ],
+  "@id" : "https://dimaterialist.github.io/test2/annotations/collection.json",
+  "label" : "All annotations loaded in dimaterialist/test2 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
